@@ -20,7 +20,7 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
+  window.open('http://fly.vc');
 
   return 'Opening GUI version...';
 };
@@ -51,7 +51,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
 };
 
-export const repo = async (args?: string[]): Promise<string> => {
+/*export const repo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
     window.open('https://github.com/m4tt72/terminal', '_blank');
   }, 1000);
@@ -63,16 +63,16 @@ export const donate = async (args?: string[]): Promise<string> => {
   window.open(packageJson.funding.url, '_blank');
 
   return 'Opening donation url...';
-};
+}; */
 
 export const banner = (args?: string[]): string => {
   return `
-███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
-████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
-██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
-██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
-██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
-╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
+██████╗ ██╗███╗   ██╗ █████╗ ██████╗ ██╗   ██╗    ███████╗████████╗ █████╗ ██████╗ ███████╗
+██╔══██╗██║████╗  ██║██╔══██╗██╔══██╗╚██╗ ██╔╝    ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
+██████╔╝██║██╔██╗ ██║███████║██████╔╝ ╚████╔╝     ███████╗   ██║   ███████║██████╔╝███████╗
+██╔══██╗██║██║╚██╗██║██╔══██║██╔══██╗  ╚██╔╝      ╚════██║   ██║   ██╔══██║██╔══██╗╚════██║
+██████╔╝██║██║ ╚████║██║  ██║██║  ██║   ██║       ███████║   ██║   ██║  ██║██║  ██║███████║
+╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
