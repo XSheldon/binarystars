@@ -47,10 +47,11 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 
   if (args[0] == "password") {
+    setTimeout(function () {
+    window.open('https://app.livestorm.co/fly-ventures/test-livestorm-for-binary-stars/live?s=0497b8bb-a352-49ce-a4a4-d22df5117972#/');
+    }, 1000);
     return 'The password is SUPERNOVAE';
-  window.open('https://app.livestorm.co/fly-ventures/test-livestorm-for-binary-stars/live?s=0497b8bb-a352-49ce-a4a4-d22df5117972#/');
-  }, 1000);
-  
+    
   }
   else {  
     setTimeout(function () {
