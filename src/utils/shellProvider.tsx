@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { History } from '../interfaces/history';
 import * as bin from './bin';
-import { useTheme } from './themeProvider';
+//import { useTheme } from './themeProvider';
 
 interface ShellContextType {
   history: History[];
@@ -70,12 +70,12 @@ export const ShellProvider: React.FC<ShellProviderProps> = ({ children }) => {
     const [cmd, ...args] = command.split(' ').slice(1);
 
     switch (cmd) {
-      case 'theme':
+      /*case 'theme':
         const output = await bin.theme(args, setTheme);
 
         setHistory(output);
 
-        break;
+        break;*/
       case 'clear':
         clearHistory();
         break;
