@@ -53,7 +53,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 export const password = async (args?: string[]): Promise<string> => {
   return 'password: SUPERNOVAE';
-}
+};
 
 /*export const repo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
