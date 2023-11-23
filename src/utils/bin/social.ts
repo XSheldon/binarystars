@@ -2,7 +2,7 @@ import config from '../../../config.json';
 
 
 export const twitter = async (args: string[]): Promise<string> => {
-  window.open(`https://www.twitter.com/${config.social.x}/`);
+  window.open(`https://www.twitter.com/${config.social.twitter}/`);
 
   return 'Opening X/Twitter...';
 };
