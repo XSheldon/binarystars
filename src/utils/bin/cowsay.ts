@@ -1,6 +1,6 @@
 import * as cow from 'cowsay-browser';
 import { getQuote } from '../../api';
-
+/*
 export const cowsay = async (args?: string[]): Promise<string> => {
   let output = '';
 
@@ -12,3 +12,4 @@ export const cowsay = async (args?: string[]): Promise<string> => {
     return cow.say({ text: output });
   }
 };
+*/
