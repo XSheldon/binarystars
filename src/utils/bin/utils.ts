@@ -55,19 +55,15 @@ export const password = async (args?: string[]): Promise<string> => {
   return 'password: SUPERNOVAE';
 };
 
-/*export const repo = async (args?: string[]): Promise<string> => {
-  setTimeout(function () {
+export const speaker = async (args?: string[]): Promise<string> => {
+  /*setTimeout(function () {
     window.open('https://github.com/m4tt72/terminal', '_blank');
   }, 1000);
-
-  return 'Opening repository...';
+ */
+  return 'Jamie CSO @Wayve, Leo VP Research @Dataiku and Harm VP AI @ServiceNow';
 };
 
-export const donate = async (args?: string[]): Promise<string> => {
-  window.open(packageJson.funding.url, '_blank');
 
-  return 'Opening donation url...';
-}; */
 
 export const banner = (args?: string[]): string => {
   return `
