@@ -48,7 +48,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
   if (args[0] == "password") {
     setTimeout(function () {
-    window.open('https://app.livestorm.co/fly-ventures/test-livestorm-for-binary-stars/live?s=0497b8bb-a352-49ce-a4a4-d22df5117972#/');
+    window.open('https://binarystars.zapier.app/');
     }, 1000);
     return 'The password is SUPERNOVAE';
     
@@ -85,6 +85,7 @@ export const banner = (args?: string[]): string => {
 ██████╔╝██║██║ ╚████║██║  ██║██║  ██║   ██║       ███████║   ██║   ██║  ██║██║  ██║███████║
 ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ v${packageJson.version}
 
+the AI X SWE Conference, brought to you by FLY VENTURES
 Type 'help' to see list of available commands. 
 ...Will you find the password?
 --
