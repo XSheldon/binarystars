@@ -1,5 +1,5 @@
 import { getWeather } from '../../api';
-
+/*
 export const weather = async (args: string[]): Promise<string> => {
   const city = args.join('+');
 
@@ -11,3 +11,4 @@ export const weather = async (args: string[]): Promise<string> => {
 
   return weather;
 };
+*/

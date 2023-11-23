@@ -1,6 +1,6 @@
 import Themes from '../../../themes.json';
 
-export const theme = async (
+/*export const theme = async (
   args: string[],
   callback?: (value: string) => string,
 ): Promise<string> => {
@@ -33,3 +33,4 @@ Example:
       return callback(randomTheme.name.toLowerCase());
   }
 };
+*/

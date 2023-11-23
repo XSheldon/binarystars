@@ -1,6 +1,6 @@
 import { getProjects } from '../../api';
-
-export const speakers = async (args: string[]): Promise<string> => {
+/*
+export const portfolio = async (args: string[]): Promise<string> => {
   const confspeakers = await getProjects();
 
   return confspeakers
@@ -11,3 +11,4 @@ export const speakers = async (args: string[]): Promise<string> => {
     )
     .join('\n');
 };
+*/
