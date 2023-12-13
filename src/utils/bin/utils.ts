@@ -47,19 +47,19 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 
   if (args[0] == "password") {
-    setTimeout(function () {
-    window.open('https://binarystars.zapier.app/');
+    setTimeout(function() {
+      window.open('https://binarystars.zapier.app/');
     }, 1000);
-    return 'Well done! You can register at https://binarystars.zapier.app/, see you soon!';';
-    
+    return 'Well done! You can register at https://binarystars.zapier.app/, see you soon!'; ';
+
   }
-  else {  
-    setTimeout(function () {
+  else {
+    setTimeout(function() {
       window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000);
+    }, 1000);
     return `Unable to run the command '${args[0]}' as root.`;
   }
-  
+
 };
 
 export const password = async (args?: string[]): Promise<string> => {
