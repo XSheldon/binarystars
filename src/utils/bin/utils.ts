@@ -16,11 +16,11 @@ export const whoami = async (args: string[]): Promise<string> => {
 };*/
 
 export const date = async (args: string[]): Promise<string> => {
-  return "Binary Stars will take place virtually on the 26th of Jan, 2024 at 12AM, BST";
+  return "Binary Stars will take place virtually on the 26th of Jan, 2024 at 12PM, BST";
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('http://fly.vc');
+  //window.open('http://fly.vc');
 
   return 'a GUI, what for?';
 };
@@ -71,7 +71,7 @@ export const speakers = async (args?: string[]): Promise<string> => {
     window.open('https://github.com/m4tt72/terminal', '_blank');
   }, 1000);
  */
-  return 'Harm VP AI @ServiceNow, Leo VP Research @Dataiku and Paul, GenAI Lead @AWS';
+  return 'Harm de Vries VP AI @ServiceNow, Leo Dreyfus-Schmidt VP Research @Dataiku and Paul Lasserre, GenAI Lead @AWS';
 };
 
 
@@ -86,7 +86,7 @@ export const banner = (args?: string[]): string => {
 ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ v${packageJson.version}
 
 the AI X SWE Conference, brought to you by FLY VENTURES
-Will you find the password and manage to register...?
+Will you find the password and manage to register?
 tip: it's only hard if you've never written code before
 
 Type 'help' to see list of available commands. 
