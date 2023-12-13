@@ -50,7 +50,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
     setTimeout(function() {
       window.open('https://binarystars.zapier.app/');
     }, 1000);
-    return 'Well done! You can register at https://binarystars.zapier.app/, see you soon!'; ';
+    return 'Well done! You can register at https://binarystars.zapier.app/, see you soon!';
 
   }
   else {
