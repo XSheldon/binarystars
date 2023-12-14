@@ -54,9 +54,9 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
   }
   else {
-    setTimeout(function() {
+    /*setTimeout(function() {
       window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-    }, 1000);
+    }, 1000);*/
     return `Unable to run the command '${args[0]}' as root.`;
   }
 
