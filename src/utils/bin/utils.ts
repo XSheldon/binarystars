@@ -20,9 +20,9 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  //window.open('http://fly.vc');
+  window.open('http://binarystars.com/');
 
-  return 'a GUI, what for?';
+  return 'opening a more suitable user interface';
 };
 
 export const email = async (args: string[]): Promise<string> => {
@@ -86,7 +86,7 @@ export const banner = (args?: string[]): string => {
 ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ v${packageJson.version}
 
 the AI X SWE Conference, brought to you by FLY VENTURES
-Will you find the password and manage to register?
+Will you manage to register?
 tip: it's only hard if you've never written code before
 
 Type 'help' to see list of available commands. 
