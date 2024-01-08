@@ -20,7 +20,7 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('http://binarystars.com/');
+  window.open('http://binarystars.org/');
 
   return 'opening a more suitable user interface';
 };
