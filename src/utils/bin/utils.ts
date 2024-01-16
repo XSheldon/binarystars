@@ -48,9 +48,9 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
   if (args[0] == "password") {
     setTimeout(function() {
-      window.open('https://binarystars.zapier.app/');
+      window.open('https://06z76kl1j0z.typeform.com/to/N4vEDKhv?typeform-source=cli.binarystars.org');
     }, 1000);
-    return 'Well done! You can register at https://binarystars.zapier.app/, see you soon!';
+    return 'Well done! See you soon!';
 
   }
   else {
